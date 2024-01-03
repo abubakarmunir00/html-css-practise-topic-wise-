@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>navigation bar</title>
+    <style>
+        .navbar {
+            background-color: rgb(14, 7, 2);
+            border-radius: 15px;
+            margin: 3px;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 8px;
+            text-decoration: none;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        li :active {
+            color: blue;
+            background-color: blue;
+            border-radius: 3px;
+            border-color: aqua;
+        }
+
+        .navbar input{
+            float: right;
+            margin-top: 6px;
+            margin-right: 70px;
+            border-radius: 8px;
+            border: 1px solid yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+
+            <ul>
+
+                <li><a href="a">home</a></li>
+
+                <li><a href="a">about</a></li>
+
+                <li><a href="a">sevices</a></li>
+
+                <li><a href="a">contact us </a></li>
+
+                <div class="search">
+                    <input type="text" class="search" id="search" placeholder="search this website">
+
+                </div>
+                <div class="couple">
+                <input type="text" class="couple" id="search" placeholder="find your couple ">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .container {
+            border: 3px solid red;
+            border-radius: 3px;
+            height: 400px;
+            width: 90%;
+            display: flex;
+            /* flex-direction: column;
+    flex-direction: row-reverse; */
+            flex-wrap: wrap;
+            /* flex-flow: column wrap; */
+
+
+/* align-items: center; */
+
+
+align-items: stretch;
+}
+
+.item{
+background-color: rgb(227, 220, 220);
+height: 123px;
+width: 123px;
+padding: 12px;
+margin: 12px;
+
+
+
+/* justify-content: center; */
+        }
+
+        #box1 {
+            border: 2px solid black;
+        }
+
+        #box2 {
+            border: 2px solid black;
+flex-basis: 345px;
+        }
+
+        #box3 {
+            /* flex-shrink: 4; */
+            border: 2px solid black;
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>this is a flex box tutorial</h1>
+    <div class="container">
+        <div class="item" id="box1">first</div>
+        <div class="item" id="box2">second</div>
+        <div class="item" id="box3">third</div>
+    </div>
+</body>
+
+</html>
